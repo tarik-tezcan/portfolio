@@ -140,13 +140,13 @@ export default {
         <div>
           <p>I'm experienced with game development using Unity and Godot</p>
           <img
-            src="test_images/unity-tab.png"
+            src="@/assets/test_images/unity-tab.png"
             alt="unity"
           >
         </div>
         <div>
           <img
-            src="test_images/pixeltrue-web-development-1.png"
+            src="@/assets/test_images/pixeltrue-web-development-1.png"
             alt="python"
           >
           <p>
@@ -157,13 +157,13 @@ export default {
         <div>
           <p>I used Python to work with AI and neural nets</p>
           <img
-            src="test_images/gummy-programming.png"
+            src="@/assets/test_images/gummy-programming.png"
             alt="python"
           >
         </div>
         <div>
           <img
-            src="test_images/icons8-github-480.png"
+            src="@/assets/test_images/icons8-github-480.png"
             alt="github"
           >
           <p>You can learn more about my projects in my <a href="https://github.com/avant-gardener">GitHub profile</a></p>
