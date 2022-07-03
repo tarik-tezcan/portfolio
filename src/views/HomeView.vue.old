@@ -57,6 +57,22 @@ export default {
             alt="profile-image"
           >
         </div>
+        <div id="socials">
+          <!-- <font-awesome-icon icon="fa-brands fa-artstation" />
+          <RouterLink to="/art">
+            <font-awesome-icon icon="fa-solid fa-palette" />
+          </RouterLink>
+          <a href="https://www.linkedin.com/in/tariktezcan/">
+            <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+          </a>
+          <a href="https://github.com/avant-gardener">
+            <font-awesome-icon icon="fa-brands fa-github-alt" />
+          </a>
+          <a href="mailto:tezcan20@itu.edu.tr">
+            <font-awesome-icon icon="fa-solid fa-envelope" />
+          </a>
+          -->
+        </div>
       </div>
       <div class="custom-shape-divider-bottom-1656769369">
         <svg
@@ -145,6 +161,13 @@ export default {
             src="@/assets/test_images/gummy-programming.png"
             alt="python"
           >
+        </div>
+        <div>
+          <img
+            src="@/assets/test_images/icons8-github-480.png"
+            alt="github"
+          >
+          <p>You can learn more about my projects in my <a href="https://github.com/avant-gardener">GitHub profile</a></p>
         </div>
       </div>
     </div>
