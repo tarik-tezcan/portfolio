@@ -6,7 +6,7 @@ export default {
     };
   },
   beforeMount() {
-    this.importAll(require.context('@/assets/showcase', false, /\.(jpg|png)$/));
+    this.importAll(require.context('../../public/showcase', false, /\.(jpg|png)$/));
   },
   methods: {
     importAll(r) {
@@ -67,7 +67,7 @@ export default {
         <img
           v-for="image in images"
           :key="image.id"
-          :src="'@/assets/showcase/' + image"
+          :src="'/showcase/' + image"
           :class="{pixelart: image[2] === 'P'}"
         >
       </div>
