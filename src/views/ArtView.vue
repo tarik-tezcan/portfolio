@@ -67,7 +67,7 @@ export default {
         <img
           v-for="image in images"
           :key="image.id"
-          :src=" 'src/assets/showcase/' + image"
+          :src="'@/assets/showcase/' + image"
           :class="{pixelart: image[2] === 'P'}"
         >
       </div>
